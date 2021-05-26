@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1600px;
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+.filter {
+    margin-bottom: 30px;
+}
+
+.filter-form {
+    display: inline-block;
+    width: 40%;
+    margin-bottom: 20px;
+}
+
+.one {
+    margin-right: 26px;
+}
+
+.two {
+    margin-right: 26px;
+}
+
+.filter__group {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.input {
+    display: inline-block;
+    max-width: 300px;
+}
+
+label {
+    display: inline-block;
+}
+
+.filter__btn {
+    display: inline-block;
+}
+
+.add-form {
+    margin-bottom: 60px;
+}
+
+#fio,
+
+#fac,
+
+#birth,
+
+#course {
+    cursor: pointer;
+}
+
+#fio:active,
+
+#fac:active,
+
+#birth:active,
+
+#course:active {
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+}
+
+.add-form {
+    position: relative;
+}
+
+.error {
+    position: absolute;
+    top: 100%;
+    left: 30%;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+    margin: 10px;
+    padding: 8px 10px;
+    z-index: 20;
+}
